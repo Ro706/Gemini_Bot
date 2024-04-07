@@ -37,7 +37,7 @@ pip install google-generativeai
     palm.configure(api_key=API_KEY)
     ```
 
-    Replace `"YOUR_API_KEY"` with your actual Palm Generative AI API key.
+    Replace `"YOUR_API_KEY"` with your actual google.generativeai Generative AI API key.
 
 4. Prompt the user to input their message:
 
@@ -45,7 +45,7 @@ pip install google-generativeai
     prompt = str(input("Enter your prompt:"))
     ```
 
-5. Make a request to the Palm Generative AI API to generate a response based on the provided prompt:
+5. Make a request to the google.generativeai Generative AI API to generate a response based on the provided prompt:
 
     ```python
     response = palm.chat(messages=prompt, temperature=0.2, context="Speak like a CEO")
