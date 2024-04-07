@@ -84,4 +84,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For any issues or inquiries, please [open an issue](https://github.com/username/repository/issues) in the GitHub repository.
+For any issues or inquiries, please [open an issue](https://github.com/Ro706/Gemini_Bot/issues) in the GitHub repository.
