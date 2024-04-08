@@ -48,7 +48,7 @@ pip install google-generativeai
 5. Make a request to the google.generativeai Generative AI API to generate a response based on the provided prompt:
 
     ```python
-    response = palm.chat(messages=prompt, temperature=0.2, context="Speak like a CEO")
+    response = palm.chat(messages=prompt, temperature=0.2, context="Speak like a AI assistance")
     ```
 
 6. Print the generated response:
