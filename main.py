@@ -8,7 +8,7 @@ signal.signal(signal.SIGINT, handle_interrupt) #Register the signal handler
 API_KEY = "YOUR_API_KEY"
 palm.configure(api_key = API_KEY)
 prompt = str(input("Enter your prompt:"))
-response=palm.chat(messages=prompt,temperature=0.2,context="Speak like a CEO")
+response=palm.chat(messages=prompt,temperature=0.2,context="Speak like a AI assistance")
 for message in response.messages:
     print(message['author'],message['content'])
     
