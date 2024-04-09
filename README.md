@@ -69,11 +69,11 @@ Here's a commented-out example that can be used to process and print each line o
 
 ```python
 # for message in response.messages:
-#     for i in message['content'].split('\n'):
-#         if i == "*" or i == "**":
-#             continue
-#         else:
-#             print(i)
+#           for i in message['content'].split('\n'):
+#                    if count != 0:
+#                        print(i)
+#                        speak(i)
+#                    count += 1
 ```
 
 Uncomment and modify this section as needed to customize the output format of the generated text.
