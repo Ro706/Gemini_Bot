@@ -10,11 +10,8 @@ palm.configure(api_key = API_KEY)
 prompt = str(input("Enter your prompt:"))
 response=palm.chat(messages=prompt,temperature=0.2,context="Speak like a AI assistance")
 for message in response.messages:
-    print(message['author'],message['content'])
-    
-# for message in response.messages:
-#     for i in message['content'].split('\n'):
-#         if i == "*" or i == "**":
-#             continue
-#         else:
-#             print(i)
+            for i in message['content'].split('\n'):
+                    if count != 0:    # this will Separate the prompt form the message
+                        print(i)
+                        speak(i)
+                    count += 1
